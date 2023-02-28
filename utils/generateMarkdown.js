@@ -50,8 +50,10 @@ function generateMarkdown(data) {
   ## Table of Contents
   - [Installation](#instalation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation
   Run the following command to install dependencies as needed:
