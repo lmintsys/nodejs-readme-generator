@@ -65,7 +65,16 @@ function writeToFile(data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  return inquirer
+    .prompt(questions)
+    .then((data) => {
+      writeToFile(data);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+}
 
 // Function call to initialize app
 init();
