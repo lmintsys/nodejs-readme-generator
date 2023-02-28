@@ -15,6 +15,7 @@ To create this generator, the 8.2.4 version of the Inquirer NPM was installed.
 A user will be prompted with a series of questions. For most fields, the user may enter any input and it will be included in the correspondent section af a new README file. To choose the license, the user will be prompted with a multiple choice question where they will be able to choose any one from three different licenses or to choose "none". The badge of the chosen license will appear at the top of the README file and it will also include a link to the license.
 ![questions](assets/questions.png)
 ![readme](assets/final-readme.png)
+[Walkthrough Video](https://watch.screencastify.com/v/eN9mcgJK9HKjVvtQFCLg)
 
 ## Credits
 
