@@ -2,11 +2,11 @@
 
 function renderLicenseBadge(license) {
   const badges = {
-    mit: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    mit: "[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
     apache2:
-      "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
-    gpl3: "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
-    bsd3: "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+      "[![Apache 2](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+    gpl3: "[![GPL 3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+    bsd3: "[![BSD 3](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
     none: "",
   };
   return badges[license];
@@ -17,10 +17,9 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   const licenseLinks = {
     mit: "[MIT](https://opensource.org/licenses/MIT)",
-    apache:
-      "[Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
-    gpl3: "[GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
-    bsd: "[BSD](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+    apache2: "[Apache 2](https://opensource.org/licenses/Apache-2.0)",
+    gpl3: "[GPL 3](https://www.gnu.org/licenses/gpl-3.0)",
+    bsd3: "[BSD 3](https://opensource.org/licenses/BSD-3-Clause)",
     none: "",
   };
   return licenseLinks[license];

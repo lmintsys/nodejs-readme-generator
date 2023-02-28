@@ -4,7 +4,7 @@
 
 ## Description
 
-The aim of this project was to create a professional README file generator. The user is to answer a few questions about different sections of the README file the ywish to create, and a new READMe file is generated based on these answers.This application will allow users to generate a professional README file for their project. Working on this project helped me gaininng further understanding of how to create an interactive app outside the browser that communicates with the user, collects data, and writes it onto a separate file.
+The aim of this project was to create a professional README file generator. The user is to answer a few questions about different sections of the README file the ywish to create, and a new README file is generated based on these answers.This application will allow users to generate a professional README file for their project. Working on this project helped me gaininng further understanding of how to create an interactive app outside the browser that communicates with the user, collects data, and writes it onto a separate file.
 
 ## Installation
 

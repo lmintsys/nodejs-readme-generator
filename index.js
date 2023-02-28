@@ -53,7 +53,7 @@ const questions = [
     name: "license",
     choices: ["MIT", "Apache 2", "GPL 3", "BSD 3", "None"],
     filter(val) {
-      return val.toLowerCase().replace(/\s+/g, "");
+      return val.toLowerCase().replace(/\s/g, "");
     },
   },
 ];
